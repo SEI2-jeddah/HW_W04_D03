@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: bisque;
+}
+header{
+    background-color: brown;
+    text-align: center;
+    padding:30px;
+    font-size: 40px;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.items {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.items>a{
+    position: relative;
+}
+p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
