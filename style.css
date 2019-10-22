@@ -1,0 +1,27 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;;
+}
+
+
+.address{
+    display: flex;
+    justify-content: center;;
+    color: aqua;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.7;
+    margin: 30% auto;
+}
+
+.BCont{
+    display: flex;
+    justify-content: center;;
+}
+
+button{
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+}
+
