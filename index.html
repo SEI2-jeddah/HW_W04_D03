@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+
+body {
+  background-color: #ADD8E6;
+}
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+button {
+   border: solid 2px #444;
+  background: #16a085;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  color: #fff;
+  box-shadow: inset 2px 2px 0 #fff, 0 8px 10px -4px rgba(0,0,0,0.4);
+  cursor: pointer;
+  transition: all 0.4s ease;
+  height: 6%;
+ 
+ 
+}
+
+@keyframes bounce {
+  0% { 
+    top: 50%; 
+    box-shadow: inset 2px 2px 0 #fff, 0 8px 10px -4px rgba(0,0,0,0.4);
+  }
+  25% { 
+    top: 47%;
+    box-shadow: inset 2px 2px 0 #fff, 0 20px 10px -8px rgba(0,0,0,0.2);
+  }
+  50% { 
+    top: 50%;
+    box-shadow: inset 2px 2px 0 #fff, 0 8px 10px -4px rgba(0,0,0,0.4);
+  }
+  75% { 
+    top: 48%;
+    box-shadow: inset 2px 2px 0 #fff, 0 16px 10px -8px rgba(0,0,0,0.3);
+  }
+  100% { 
+    top: 50%; 
+    box-shadow: inset 2px 2px 0 #fff, 0 8px 10px -4px rgba(0,0,0,0.4);
+  }
+}
+.container {
+  padding: 2px 16px;
+}
+ 
+</style>
+</head>
+
+<body><center>
+    <br><br><br>
+    <h1>Search a Book</h1>
+    <input id="searchTerms" class="form-inline my-2 my-lg-0" type="text" placeholder="Book Title "/><br><br>
+    <button id="searchButton" class="btn btn-outline-success my-2 my-sm-0" onclick="searchTitles()">Search</button>
+    <br><br>
+    <div id="body" class="row"></div>
+      <br><br><br>
+    </center>
+ <script src="main.js"></script>  
+</body>
+
+</html>
