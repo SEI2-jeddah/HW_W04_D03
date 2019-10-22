@@ -1,6 +1,19 @@
 body{
     background-image: url('https://backgroundcheckall.com/wp-content/uploads/2017/12/pokeball-background-2.png');
 }
+.header{
+    background-image: linear-gradient(yellow, red,orange);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 45px;
+
+}
+.header h1{
+    color: white;
+    text-shadow: 20px;
+}
 
 .card {
     border: 2px solid black;
