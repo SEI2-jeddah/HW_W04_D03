@@ -1,0 +1,25 @@
+#top{
+	text-align: end;
+	color: white;
+	font-size: larger;
+	font-weight: bolder;
+}
+#time{
+	font-size: 20vh;
+	text-align: center;
+	color: white;
+	margin-bottom: 0;
+}
+.message{
+	text-align: center;
+	color: white;
+}
+.centerThis{
+	text-align: center;
+}
+#activity{
+	display: none;
+	text-align: center;
+	color: white;
+	font-size: 3rem;
+}
