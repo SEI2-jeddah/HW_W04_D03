@@ -1,8 +1,17 @@
 
 .imgStyle{
 display: block;
+margin-top:50px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;}
 
   
+.styleHeading{
+  text-align: center;
+  color:rgb(255, 174, 0);
+}
+
+body{
+  background:rgb(250, 231, 178);
+}
