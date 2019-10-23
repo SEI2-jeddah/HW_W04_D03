@@ -1,0 +1,23 @@
+body{
+    background-image: url(https://source.unsplash.com/random);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+
+    
+}
+.b{
+    position: relative;
+    margin-right: 50%;
+    margin-left: 50%;
+    padding: 20px 45px;
+
+}
+.image{
+    padding:10px;
+    display:inline-block;
+    position: relative;
+    border:3px solid black;
+    margin:10px;
+}
+
