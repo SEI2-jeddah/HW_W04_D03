@@ -1,0 +1,23 @@
+body{
+    background-image: url('https://cn.opendesktop.org/img/1/5/e/2/8641563fe2f1f62abbcce1e12f45283ab379.jpg');
+    /* width: 100px;
+    height: 100px; */
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+#facts{
+    margin-top: 7%;
+    font-size: 30px;
+    text-align: center;
+    width: 90%;
+    margin: 7% auto;
+    color: white;
+    font-family: cursive;
+}
