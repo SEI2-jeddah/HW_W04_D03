@@ -19,5 +19,6 @@ body{
     position: relative;
     border:3px solid black;
     margin:10px;
+    background-color:grey;
 }
 
