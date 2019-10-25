@@ -1,0 +1,39 @@
+body{
+    background: url(./img/mari-carmen-del-valle-camara-oUts1FvnwPI-unsplash.jpg) no-repeat center center fixed;;
+    /* height: 100%; */
+
+  /* Center and scale the image nicely */
+   
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ .time{
+    display: flex;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+ }
+
+ .football{
+     color: brown;
+ }
+
+ table{
+     float: none;
+     margin-left:30%;
+     box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+     /* margin-bottom: 15%; */
+     
+ }
+ 
+ tr td{
+     color: white;
+ }
