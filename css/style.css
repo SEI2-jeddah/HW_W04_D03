@@ -1,0 +1,27 @@
+body{
+    background-image: rgb(245, 245, 229);
+    margin: auto;
+}
+
+
+h1{
+    font-size: 44px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    background: gainsboro;
+    text-align: center;
+    
+}
+
+p{
+    font-size: 26px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    background: rgb(243, 240, 240);
+    text-align: center;
+    
+}
