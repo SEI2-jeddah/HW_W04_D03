@@ -1,3 +1,4 @@
+console.log("fdkjhgs")
 axios({
     method: 'get',
     url: "https://api.unsplash.com/photos/?client_id=f44be576e6e1392a4b90a733d94331dc61d8a2a109e23451cd5371da9e93f40a"
@@ -12,7 +13,7 @@ axios({
 
     
 })
-.catch((erroe) =>{
+.catch((error) =>{
 
 });
 
